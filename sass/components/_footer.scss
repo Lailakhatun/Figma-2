@@ -1,0 +1,17 @@
+#footer_part{
+    padding:90px 0 60px;
+    .footer_text{
+        a{
+            i{
+           color:#000;
+           background: #fff;
+           font-size: 25px;
+           margin:0 10px;
+        }
+    }
+    p{
+        @include fntfml(#21243D,14px,400,$heebo);
+        margin-top: 15px;
+    }
+}
+}

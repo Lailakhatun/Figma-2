@@ -1,0 +1,19 @@
+.back-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 23px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #ff6464;
+    border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
+    i{
+        color:#fff;
+        font-size: 20px;
+    }
+}

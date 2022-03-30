@@ -1,0 +1,13 @@
+.work_part{
+    padding-top: 110px !important;
+
+    .feature_head{
+        
+        h2{
+            @include fntfml(#21243D,44px,900,$heebo);
+            margin-bottom: 20px;
+            text-transform: capitalize;
+
+        }
+    }
+}

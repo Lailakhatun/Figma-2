@@ -1,0 +1,330 @@
+/* index page responsive */
+@media (min-width:1400px){}
+@media (min-width:1200px) and (max-width:1399.98px){}
+@media (min-width:992px) and (max-width:1199.98px){
+    #technologist_part .technologist_text p {
+        padding-right: 0px;
+    }
+    #recent_part .view p {
+        text-align: left;
+    }
+    #Feature_part .design_border .design_text {
+        margin-top: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    /* technologi part start */
+    #technologist_part {
+        padding: 81px 0 70px;
+    }
+    #technologist_part .technologist_text h3 {
+        font-size: 40px;
+    }
+    #technologist_part .technologist_text h1 {
+        font-size: 40px;
+    }
+    #technologist_part .technologist_text p {
+        padding-right: 0px;
+    }
+    #recent_part .view{
+        display: none;
+    }
+    #recent_part .recent_post h6 {
+        text-align: center;
+    }
+    #recent_part .recent_text:first-child {
+        margin-bottom: 20px;
+    }
+    #Feature_part .feature_head h5 {
+        text-align: center;
+        margin-bottom: 0;
+    }
+   
+}
+@media (min-width:576px) and (max-width:767.98px){
+    /* Nav part start */
+    nav {
+        background: #ff6464;
+    }
+  button {
+        display: block;
+        text-align: right;
+        width: 100%;  
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0rem;
+    }
+     ul{
+        padding: 0;
+        text-align: center;
+        margin-top: 21px;
+        margin-right:0 !important;
+        border-top: 1px solid #000;
+
+
+    }
+    ul li{
+    margin: 10px 20px 20px;
+        border-bottom: 1px solid #fff;
+    }
+    ul li a{
+        margin:0 !important;
+        padding:0 !important;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+}
+    ul li a:hover{
+        color:#fff !important;
+    }
+    /* nav part end */
+
+    /* technologi part start */
+    #technologist_part {
+        padding: 60px 0 60px;
+    }
+    .technologist_text{
+        text-align: center !important;
+    }
+    .technologist_image img{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    #technologist_part .technologist_text h3 {
+       
+        font-size: 35px;
+       
+    }
+    #technologist_part .technologist_text h1 {
+       
+        font-size: 40px;
+        font-weight: 600;
+       
+    }
+    #technologist_part .technologist_text p {
+        
+        padding: 0px 15px 0px;
+    }
+    /* technologi part end */
+
+    /* recent part start */
+    #recent_part .view{
+        display: none;
+    }
+    #recent_part .recent_post h6 {
+        text-align: center;
+    }
+    #recent_part .recent_text {
+       
+        margin:auto;
+    }
+    #recent_part .recent_text:first-child{
+        margin-bottom: 20px;
+    }
+    #recent_part .recent_text h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 0px;
+        margin-bottom: 12px;
+    }
+    #recent_part .recent_text p {
+        padding-right: 0px;
+    }
+    #recent_part .recent_text b {
+        display: none;
+    }
+    #recent_part .recent_text b.pattern {
+        display: block;
+        margin-left: 15px;
+        display: inline-block;
+    }
+    /* recent part end */
+
+    /* feature part start */
+    #Feature_part .feature_head h5 {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    #Feature_part .design_border .design_text h2 {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    #Feature_part .design_border .design_text h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    /* feature part end */
+
+    /* footer part start */
+    #footer_part {
+        padding: 25px 0 60px;
+    }
+    /* footer part end */
+    .manu-fix{
+        background: #ff6464;
+    }
+
+}
+@media (max-width:575.98px){
+
+    /* Nav part start */
+    nav {
+        background: #ff6464;
+    }
+  button {
+        display: block;
+        text-align: right;
+        width: 100%;  
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 0rem;
+    }
+     ul{
+        padding: 0;
+        text-align: center;
+        margin-top: 21px;
+        margin-right:0 !important;
+        border-top: 1px solid #000;
+
+
+    }
+    ul li{
+    margin: 10px 20px 20px;
+        border-bottom: 1px solid #fff;
+    }
+    ul li a{
+        margin:0 !important;
+        padding:0 !important;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+}
+    ul li a:hover{
+        color:#fff !important;
+    }
+    #technologist_part {
+        padding: 60px 0 60px;
+    }
+    .technologist_text{
+        text-align: center !important;
+    }
+    .technologist_image img{
+        width: 200px;
+        margin-bottom: 30px;
+    }
+    #technologist_part .technologist_text h3 {
+       
+        font-size: 35px;
+       
+    }
+    #technologist_part .technologist_text h1 {
+       
+        font-size: 40px;
+        font-weight: 600;
+       
+    }
+    #technologist_part .technologist_text p {
+        
+        padding: 0px 15px 0px;
+    }
+    #recent_part .view{
+        display: none;
+    }
+    #recent_part .recent_post h6 {
+        text-align: center;
+    }
+    #recent_part .recent_text {
+       
+        margin:auto;
+    }
+    #recent_part .recent_text:first-child{
+        margin-bottom: 20px;
+    }
+    #recent_part .recent_text h2 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-right: 0px;
+        margin-bottom: 12px;
+    }
+    #recent_part .recent_text p {
+        padding-right: 0px;
+    }
+    #recent_part .recent_text b {
+        display: none;
+    }
+    #recent_part .recent_text b.pattern {
+        display: block;
+        margin-left: 15px;
+        display: inline-block;
+    }
+    #Feature_part .feature_head h5 {
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    #Feature_part .design_border .design_text h2 {
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    #Feature_part .design_border .design_text h2 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    #footer_part {
+        padding: 25px 0 60px;
+    }
+    /* Nav part end */
+    .manu-fix{
+        background: #ff6464;
+    }
+}
+
+/* ..............work page responsive.................... */
+@media (max-width:575px){
+    /* Feature part start */
+    .work_part {
+        padding-top: 60px !important;
+    }
+    /* Feature part end */
+}
+
+/* ............Blog page responsive.................. */
+@media (min-width:1400px){}
+@media (min-width:1200px) and (max-width:1399.98px){}
+@media (min-width:992px) and (max-width:1199.98px){}
+@media (min-width:768px) and (max-width:991.98px){}
+@media (min-width:576px) and (max-width:767.98px){}
+@media (max-width:575.98px){
+    /* interaction part start */
+    #blog_part {
+        padding-top: 60px;
+    }
+    #blog_part .feature_head h2 {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    #blog_part .blog1_text h2 {
+        font-size: 24px;
+        padding-right: 0px;
+        margin-bottom: 5px;
+    }
+    #blog_part .blog1_text b {
+        font-size: 17px;
+        margin-left: 15px;
+    }
+    #blog_part .blog1_text p {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    #footer_part {
+        padding: 80px 0 55px;
+    }
+    /* interaction part iend */
+}
